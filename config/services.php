@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'xendit' => [
+        'public' => env('XENDIT_PUBLIC', 'xendit_public'),
+        'private' => env('XENDIT_PRIVATE', 'xendit_public'),
+        'webhook' => env('XENDIT_WEBHOOK', 'xendit_webhook'),
+    ],
+
 ];
